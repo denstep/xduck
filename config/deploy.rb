@@ -1,7 +1,7 @@
 # config valid only for Capistrano 3.1
 lock '3.4.0'
 
-set :application, 'xduck'
+set :application, 'xduck_bauflex'
 set :repo_url, 'git@github.com:detergen/xduck.git'
 
 set :deploy_user, 'deploy'
