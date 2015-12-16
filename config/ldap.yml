@@ -44,7 +44,7 @@ production:
   host: mail.bauflex.ru
   port: 636
   attribute: mail
-  base: ou=Users,domainName=bauflex.ru,o=domains,dc=launberg,dc=ru
+  base: ou=Users,domainName=bauflex.ru,o=domains,dc=launberg,dc=ru,enabledService=xduck
   admin_user: mail=aa@bauflex.ru
   admin_password: 93mK223sGX
   ssl: simple_tls
