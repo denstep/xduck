@@ -24,9 +24,9 @@ development:
   host: mail.bauflex.ru
   port: 636
   attribute: mail
-  base: ou=Users,domainName=xduck.bauflex.ru,o=domains,dc=launberg,dc=ru
-  admin_user: mail=test@xduck.bauflex.ru,ou=Users,domainName=xduck.bauflex.ru,o=domains,dc=launberg,dc=ru
-  admin_password: cAKRpfHhB4
+  base: ou=Users,domainName=bauflex.ru,o=domains,dc=launberg,dc=ru
+  admin_user: mail=aa@bauflex.ru
+  admin_password: 93mK223sGX
   ssl: simple_tls
   # <<: *AUTHORIZATIONS
 
@@ -41,11 +41,11 @@ test:
   # <<: *AUTHORIZATIONS
 
 production:
-  host: localhost
+  host: mail.bauflex.ru
   port: 636
-  attribute: cn
-  base: ou=people,dc=test,dc=com
-  admin_user: cn=admin,dc=test,dc=com
-  admin_password: admin_password
-  ssl: start_tls
+  attribute: mail
+  base: ou=Users,domainName=bauflex.ru,o=domains,dc=launberg,dc=ru
+  admin_user: mail=aa@bauflex.ru
+  admin_password: 93mK223sGX
+  ssl: simple_tls
   # <<: *AUTHORIZATIONS
